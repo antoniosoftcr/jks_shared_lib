@@ -1,5 +1,3 @@
 def call(Closure body) { // Clousure needed for in block style call in jenkinsfile
-    node('mystep') {
-        body()
-    }
+    body()
 }
