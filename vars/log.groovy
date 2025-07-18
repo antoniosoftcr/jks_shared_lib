@@ -6,6 +6,6 @@ def info(msg) {
     echo "test ${msg}"
 }
 
-def warning(map params = [:]) {
+def warning(Map params = [:]) {
     echo "test mesasge: ${params.msg} for ${params.name}"
 }
